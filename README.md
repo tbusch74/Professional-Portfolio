@@ -8,4 +8,9 @@ This is Tony Busch's personal professional profile.
 * CSS
 
 ## Website
-https://tbusch74.github.io/Professional-Portfolio/
+
+See below for a screenshot of the finished webpage.
+
+![Horiseon screenshot](assets/images/screenshot.JPG)
+
+The webpage can be found at: https://tbusch74.github.io/Professional-Portfolio/

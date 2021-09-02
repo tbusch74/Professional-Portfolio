@@ -157,6 +157,9 @@ footer {
     .center {
         align-self: center;
     }
+    .intro .content-wrap img {
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 653px) {

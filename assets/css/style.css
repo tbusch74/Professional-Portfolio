@@ -147,3 +147,47 @@ footer {
     padding: 25px;
     margin-top: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .intro .content-wrap {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        }
+    .center {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 653px) {
+    header nav ul {
+        flex-direction: column;
+    }
+    .contact .content-wrap {
+        flex-direction: column;
+    }
+    .contact .content-wrap article{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contact .content-wrap article a {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact .content-wrap p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .project:not(:first-child) {
+        width: 70%;
+    }
+    footer{
+        font-size: 8px;
+    }
+}
